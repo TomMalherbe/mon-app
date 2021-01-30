@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 import './App.css';
@@ -13,8 +14,8 @@ function App() {
 
   return (
     <div className="App" >
-    <img id="Titre" src='Titre.png'></img>
-    <img id="Fond" src='Background.jpeg'></img>
+    <img id="Titre" src='Titre.png'/>
+    <img id="Fond" src='Background.jpeg'/>
       <BrowserRouter>
  
         <div className="header">
